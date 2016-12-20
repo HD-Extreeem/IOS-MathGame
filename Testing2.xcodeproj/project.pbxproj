@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		838FD77E1E06FDC5000B5227 /* nerd.gif in Resources */ = {isa = PBXBuildFile; fileRef = 838FD77D1E06FDC5000B5227 /* nerd.gif */; };
+		838FD7801E073875000B5227 /* sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 838FD77F1E073875000B5227 /* sound.mp3 */; };
 		83A1DD7B1E05BD2100B7A5B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A1DD7A1E05BD2100B7A5B8 /* AppDelegate.swift */; };
 		83A1DD7D1E05BD2100B7A5B8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A1DD7C1E05BD2100B7A5B8 /* ViewController.swift */; };
 		83A1DD801E05BD2100B7A5B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83A1DD7E1E05BD2100B7A5B8 /* Main.storyboard */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		838FD77D1E06FDC5000B5227 /* nerd.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = nerd.gif; sourceTree = "<group>"; };
+		838FD77F1E073875000B5227 /* sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sound.mp3; sourceTree = "<group>"; };
 		83A1DD771E05BD2100B7A5B8 /* Testing2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Testing2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83A1DD7A1E05BD2100B7A5B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		83A1DD7C1E05BD2100B7A5B8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -97,6 +101,8 @@
 		83A1DD791E05BD2100B7A5B8 /* Testing2 */ = {
 			isa = PBXGroup;
 			children = (
+				838FD77F1E073875000B5227 /* sound.mp3 */,
+				838FD77D1E06FDC5000B5227 /* nerd.gif */,
 				83A1DD7A1E05BD2100B7A5B8 /* AppDelegate.swift */,
 				83A1DD7C1E05BD2100B7A5B8 /* ViewController.swift */,
 				83A1DD7E1E05BD2100B7A5B8 /* Main.storyboard */,
@@ -193,6 +199,7 @@
 				TargetAttributes = {
 					83A1DD761E05BD2100B7A5B8 = {
 						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = RBXE2A8TH3;
 						ProvisioningStyle = Automatic;
 					};
 					83A1DD8A1E05BD2100B7A5B8 = {
@@ -233,8 +240,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				83A1DD851E05BD2100B7A5B8 /* LaunchScreen.storyboard in Resources */,
+				838FD77E1E06FDC5000B5227 /* nerd.gif in Resources */,
 				83A1DD821E05BD2100B7A5B8 /* Assets.xcassets in Resources */,
 				83A1DD801E05BD2100B7A5B8 /* Main.storyboard in Resources */,
+				838FD7801E073875000B5227 /* sound.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,7 +419,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = RBXE2A8TH3;
 				INFOPLIST_FILE = Testing2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Hd-extreem.Testing2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -422,7 +433,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = RBXE2A8TH3;
 				INFOPLIST_FILE = Testing2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Hd-extreem.Testing2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -503,6 +516,7 @@
 				83A1DDA11E05BD2100B7A5B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		83A1DDA21E05BD2100B7A5B8 /* Build configuration list for PBXNativeTarget "Testing2Tests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +525,7 @@
 				83A1DDA41E05BD2100B7A5B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		83A1DDA51E05BD2100B7A5B8 /* Build configuration list for PBXNativeTarget "Testing2UITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +534,7 @@
 				83A1DDA71E05BD2100B7A5B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
