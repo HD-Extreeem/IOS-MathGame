@@ -11,10 +11,10 @@ My first iOS mathgame made by me, Hadi Deknache
 correct during 80 seconds you win
 
 
-![alt text](screenshots/gameImg1.png "Game image")
+![alt text](gameImg1.png "Game image")
 
 
-![alt text](screenshots/gameImg2.png "Game image")
+![alt text](gameImg2.png "Game image")
 
 
 Copyright © 2016 Hadi Deknache. All rights reserved.
