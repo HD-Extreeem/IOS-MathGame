@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  Testing2
+//  Ios math game made in swift
 //
 //  Created by Hadi Deknache on 2016-12-17.
 //  Copyright © 2016 Hadi Deknache. All rights reserved.
